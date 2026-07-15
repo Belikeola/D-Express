@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.headerHero{
+    background-image: url(./Images/Herobac.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+
+}
+li{
+    list-style: none;
+    color: white;
+}
+
+.headerButton button{
+    background: #1BC768;
+    padding: 0.5rem 2rem ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+.heroText h2{
+     font-family: Avenir;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 65.57px;
+    text-align: left;
+    color: white;
+
+} 
+
+.heroText p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: white;
+    padding: 2rem 0;
+}
+.heroText{
+    width: 40%;
+}
+
+.heroImage{
+    width: 40%;
+}
+
+.heroButton{
+    margin-bottom: 2rem;
+}
+
+.heroButton button{
+    border: 1px solid white;
+    background: none;
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    color: white;
+    cursor: pointer;
+}
+.heroButton button:hover{
+    color: #043CAA;
+    background:white;
+
+}
+.search{
+    width: 90%;
+}
+
+.search input{
+    width: 70%;
+    padding: 0.5rem 0;
+    border-radius: 50px 0px 0px 50px ;
+    padding-left: 1rem;
+    border: 1px solid white;
+}
+.search button{
+    width: 25%;
+    padding: 0.5rem 0;
+    background: #1BC768;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #1BC768 ;
+    margin-left: -0.3rem;
+    border-radius: 0px 50px 50px 0px ;
+}
+
+.affliations{
+    background: none;
+    padding: 2rem;
+
+}
+.affliationText h4{
+    color:#043CAA;
+    font-family: Avenir;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+    text-align: left;
+    text-align: center;
+}
+
+.affliationText img{
+    margin-left: 35rem;
+}
+
+
+.affliates{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 50%;
+    padding: 2rem;
+}
+
+.keyBenefit h4{
+        font-family: Avenir;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+    text-align: center;
+    color: #043CAA;
+    padding: 0.2rem ;
+}
+
+.keyBenefit img{
+    margin-left: 37rem;
+}
+
+.medicine{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 6rem;
+}
+
+.medicineText{
+    width: 29%;
+}
+
+.medicineImage{
+    width: 40%;
+
+}
+
+.medicineText h4{
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    color: #043CAA;
+    padding-bottom: 2rem;
+
+}
+
+
+li{
+    font-family: Avenir;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.59px;
+text-align: left;
+    color: #333333;
+    padding-bottom: 2rem;
+}
+
+.medicineButton button{
+    border: 1px solid #1BC768;
+    background: white;
+    color: #1BC768 ;
+    border-radius: 5rem;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+
+}
+
+.delivery{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 6rem;
+}
+
+.deliveryImage{
+    width: 40% ;
+}
+
+.deliveryText{
+    width: 29%;
+}
+
+.deliveryText h4{
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    color: #043CAA;
+    padding-bottom: 2rem;
+
+}
+
+.deliveryButton button{
+    border: 1px solid #1BC768;
+    background: white;
+    color: #1BC768 ;
+    border-radius: 5rem;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 6rem;
+}
+.profileImage{
+    width: 40% ;
+}
+
+.profileText{
+    width: 40%;
+}
+
+.profileText h4{
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    text-align: left;
+    color: #043CAA;
+    padding-bottom: 2rem;
+
+}
+
+.profileButton button{
+    border: 1px solid #1BC768;
+    background: white;
+    color: #1BC768 ;
+    border-radius: 5rem;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    text-align: left;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+
+.client{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 90%;
+    padding-bottom: 8rem;
+}
+
+.clientComment{
+    width: 40%;
+}
+
+.clientImage{
+    width: 50%;
+}
+
+.clientComment h4{
+    font-family: Avenir;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49.18px;
+    text-align: left;
+    color: black;
+}
+
+.clientComment p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: #7A7A7A;
+    padding-bottom: 2rem;
+}
+
+.clientLogo img{
+    padding-bottom: 2rem;
+    margin-left: 8rem;
+    padding-top: 0.5rem;
+}
+
+.clientAuthor{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: #043CAA;
+
+}
+.ellipse img{
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+.footer{
+    background-color: #043CAA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.footerContact{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.footerText h4{
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32.78px;
+    text-align: left;
+    color: white;
+    padding-bottom: 2rem;
+
+}
+
+.footerText p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: white;
+
+}
+
+.footerText{
+    width: 30%;
+}
+
+.footerImage{
+    width: 50%;
+}
+
+    .footerImage p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: white;
+}
+
+.footerSearch{
+    width: 90%;
+    padding-top: 2rem;
+}
+
+.footerSearch input{
+    width: 70%;
+    padding: 0.5rem 0;
+    border-radius: 50px 0px 0px 50px ;
+    padding-left: 1rem;
+    border: 1px solid white;
+}
+.footerSearch button{
+    width: 25%;
+    padding: 0.5rem 0;
+    background: #1BC768;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #1BC768 ;
+    margin-left: -0.3rem;
+    border-radius: 0px 50px 50px 0px ;
+}
+
+
+.footerSpace{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem;
+    margin: auto;
+    width: 100%;
+
+}
+
+.footerD-expressText h5{
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32.78px;
+    text-align: left;
+    color: white;
+    padding: 1rem 0;
+
+}
+
+.footerD-expressText p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: white;
+
+}
+
+.footerRefill{
+    width: 60%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerD-expressText{
+    width: 20%;
+}
+
+.quickLinks h6{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24.59px;
+    text-align: left;
+    color: white;
+    padding: 1rem 0;
+
+}
+
+.quickLinks li{
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+    color: white;
+    list-style: none;
+
+}
+
+.services h6{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24.59px;
+    text-align: left;
+    color: white;
+    padding: 1rem 0;
+
+}
+
+.services li{
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+    color: white;
+    list-style: none;
+}
+
+.socialMedia h6{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24.59px;
+    text-align: left;
+    color: white;
+    padding: 1rem 0;
+
+}
+
+.socialMedia li{
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+    color: white;
+    list-style: none;
+
+}
+
+
+.footerCopyright{
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+    color: white;
+    margin-left: 35rem;
+
+}
